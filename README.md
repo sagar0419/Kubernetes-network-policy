@@ -1,4 +1,4 @@
-#Kubernetes Network Policy.
+# Kubernetes Network Policy.
 Kubernetes Network Policy is namespace scoped. Policies are applied to pods using label selectors. Policy rules can specify the traffic that is allowed to/from pods, namespaces, or CIDRs.
 
 ## Description.
