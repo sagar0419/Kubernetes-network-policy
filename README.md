@@ -8,7 +8,7 @@ Kubernetes Network Policy is namespace scoped. Policies are applied to pods usin
 
 ## Manifest.
 As we know that Kubernetes network policy is namespace scoped, so we have created 2 manifest files, one for the frontend namespace and one for the backend namespace.
-frontend.yaml file contains network policy for frontend namespace and backend.yaml file contains network policy for backend namespace.
+`frontend.yaml` file contains network policy for frontend namespace and `backend.yaml` file contains network policy for backend namespace.
 
 ## Default deny.
-deny.yaml file contains network policy which will block all Ingress and Egress traffic in a namespace.
+`deny.yaml` file contains network policy which will block all Ingress and Egress traffic in a namespace.
